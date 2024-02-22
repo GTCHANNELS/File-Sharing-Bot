@@ -90,8 +90,8 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
+                ],[
                     InlineKeyboardButton("UniHub Official", url = "https://t.me/Unihubofficial")
-                ]
             ]
         )
         await message.reply_text(

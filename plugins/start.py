@@ -92,6 +92,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ],[
                     InlineKeyboardButton("UniHub Official", url = "https://t.me/Unihubofficial")
+                ]
             ]
         )
         await message.reply_text(
